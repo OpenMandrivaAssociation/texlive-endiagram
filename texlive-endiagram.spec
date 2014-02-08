@@ -6,7 +6,7 @@
 # catalog-version 0.1a
 Name:		texlive-endiagram
 Version:	0.1a
-Release:	1
+Release:	2
 Summary:	Easy creation of potential energy curve diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endiagram
