@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 0.1b
 Name:		texlive-endiagram
-Version:	0.1b
-Release:	9
+Version:	0.1d
+Release:	1
 Summary:	Easy creation of potential energy curve diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endiagram
