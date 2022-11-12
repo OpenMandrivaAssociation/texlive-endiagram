@@ -1,18 +1,12 @@
-# revision 30025
-# category Package
-# catalog-ctan /macros/latex/contrib/endiagram
-# catalog-date 2013-04-05 11:53:55 +0200
-# catalog-license lppl1.3
-# catalog-version 0.1b
 Name:		texlive-endiagram
-Version:	0.1d
-Release:	2
+Version:	34486
+Release:	1
 Summary:	Easy creation of potential energy curve diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endiagram
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endiagram.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endiagram.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endiagram.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endiagram.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ curve diagrams with just a few simple commands. The package
 cannot (yet) be considered stable.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +34,7 @@ cannot (yet) be considered stable.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
