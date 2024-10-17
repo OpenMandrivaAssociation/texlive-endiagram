@@ -3,7 +3,7 @@ Version:	34486
 Release:	2
 Summary:	Easy creation of potential energy curve diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/endiagram
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/endiagram
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endiagram.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/endiagram.doc.r%{version}.tar.xz
